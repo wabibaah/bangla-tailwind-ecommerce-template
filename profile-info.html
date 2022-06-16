@@ -251,15 +251,78 @@
       <!-- profile info -->
       <div class="col-span-9 shadow rounded px-6 pt-5 pb-7 mt">
         <h4 class="text-lg font-medium capitalize mb-4">Profile Information</h4>
-      </div>
-      <div class="space-y-4">
-        <div class="grid grid-cols-2 gap-4">
-          <!-- single input -->
-          <div>
-            <label for="" class="">Full Name</label>
-            <input type="text" name="" id="" class="input-box" />
+        <div class="space-y-4">
+          <!-- form row -->
+          <div class="grid grid-cols-2 gap-4">
+            <!-- single input -->
+            <div>
+              <label for="" class="text-gray-600 mb-2 block">First Name </label>
+              <input type="text" name="" id="" class="input-box" placeholder="Name" />
+            </div>
+            <!-- end of single input -->
+            <!-- single input -->
+            <div>
+              <label for="" class="text-gray-600 mb-2 block">Last Name </label>
+              <input type="text" name="" id="" class="input-box" placeholder="Name" />
+            </div>
+            <!-- end of single input -->
           </div>
-          <!-- end of single input -->
+          <!-- end of form row -->
+          <!-- form row -->
+          <div class="grid grid-cols-2 gap-4">
+            <!-- single input -->
+            <div>
+              <label for="" class="text-gray-600 mb-2 block">Birthday</label>
+              <input type="date" name="" id="" class="input-box" />
+            </div>
+            <!-- end of single input -->
+            <!-- single input -->
+            <div>
+              <label for="" class="text-gray-600 mb-2 block">Gender</label>
+              <select name="" id="" class="input-box">
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+            <!-- end of single input -->
+          </div>
+          <!-- end of form row -->
+          <!-- form row -->
+          <div class="grid grid-cols-2 gap-4">
+            <!-- single input -->
+            <div>
+              <label for="" class="text-gray-600 mb-2 block">Email address</label>
+              <input
+                type="email"
+                name=""
+                id=""
+                class="input-box"
+                placeholder="Enter email address"
+              />
+            </div>
+            <!-- end of single input -->
+            <!-- single input -->
+            <div>
+              <label for="" class="text-gray-600 mb-2 block">Phone number</label>
+              <input
+                type="email"
+                name=""
+                id=""
+                class="input-box"
+                placeholder="Enter phone number"
+              />
+            </div>
+            <!-- end of single input -->
+          </div>
+          <!-- end of form row -->
+          <div class="mt-4">
+            <button
+              class="py-3 px-4 text-center text-white bg-primary border border-primary rounded-md hover:bg-transparent hover:text-primary transition"
+              type="submit"
+            >
+              save changes
+            </button>
+          </div>
         </div>
       </div>
       <!-- end of profile info -->
